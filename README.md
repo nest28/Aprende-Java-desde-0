@@ -1,6 +1,6 @@
 # ☕ Aprende Java desde 0
 
-¡Hola! Bienvenido/a  a este repositorio.👋
+¡Hola! Bienvenidos y Bienvenidas a este repositorio.👋
 ## 📌 Sobre este proyecto
 Como alumna de 1º de DAM (Desarrollo de Aplicaciones Multiplataforma)**, he creado este repositorio con un doble objetivo:
 * **Para mí:** Servir como guía y diario de aprendizaje para mantener todo mi código organizado a lo largo del curso.
