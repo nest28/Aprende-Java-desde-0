@@ -1,0 +1,100 @@
+public class ApuntesEjercicios {
+    public static void main(String[] args) {
+        
+        System.out.println("======================================================================");
+        System.out.println("          APUNTES TEORICOS: COMANDOS Y CONCEPTOS BASICOS             ");
+        System.out.println("======================================================================\n");
+
+        // ------------------------------------------------------------------
+        // 1º. MOSTRAR TEXTO POR PANTALLA
+        // ------------------------------------------------------------------
+        System.out.println("1º. MOSTRAR TEXTO POR PANTALLA");
+        System.out.println("----------------------------------------------------------------------");
+        
+        System.out.println("- ¿Para qué sirve System.out.print(\"Texto\"); ?");
+        System.out.println("  Imprime el texto que le pones entre comillas en la pantalla, pero el");
+        System.out.println("  cursor se queda al final de esa misma línea.\n");
+        
+        System.out.println("  Ejemplo práctico:");
+        System.out.println("  System.out.println(\"Mi nombre es Ana\");");
+        System.out.println("  System.out.println(\"Mi dirección es Calle Mayor 5\");");
+        System.out.println("  System.out.println(\"Mi teléfono es 600123456\");\n");
+
+        System.out.println("- ¿Para qué sirve System.out.println(\"Texto\");? (La 'ln' viene de line)");
+        System.out.println("  Imprime el texto y, justo después, salta automáticamente a la línea");
+        System.out.println("  siguiente. Es el que usarás por defecto para la mayoría de cosas.\n");
+        
+        System.out.println("  Ejemplo práctico:");
+        System.out.println("  System.out.println(\"Mi nombre es Ana\\nMi dirección es Calle Mayor 5\\nMi teléfono es 600123456\");\n\n");
+
+
+        // ------------------------------------------------------------------
+        // 2º. CARACTERES ESPECIALES
+        // ------------------------------------------------------------------
+        System.out.println("2º. CARACTERES ESPECIALES");
+        System.out.println("----------------------------------------------------------------------");
+        System.out.println("Dentro del texto entre comillas, puedes usar ciertos símbolos especiales");
+        System.out.println("precedidos por una barra invertida (\\) para modificar cómo se ve el texto:\n");
+        
+        System.out.println("- \\n (Salto de línea):");
+        System.out.println("  Sirve para obligar al texto a bajar a la línea de abajo en medio de una frase.");
+        System.out.println("  Ejemplo: \"Mi nombre es Juan\\nMi teléfono es 123456\" mostrará ambos datos");
+        System.out.println("  en dos líneas diferentes usando una sola instrucción.\n");
+
+        System.out.println("- \\t (Tabulador):");
+        System.out.println("  Inserta un espacio grande horizontal (como pulsar la tecla Tabulador).");
+        System.out.println("  Es la clave para el Ejercicio 3 y 4, ya que te permite alinear palabras");
+        System.out.println("  o columnas (como traducciones o horarios) de forma ordenada.\n\n");
+
+
+        // ------------------------------------------------------------------
+        // 3º. DAR COLOR AL TEXTO
+        // ------------------------------------------------------------------
+        System.out.println("3º. DAR COLOR AL TEXTO");
+        System.out.println("----------------------------------------------------------------------");
+        System.out.println("Para colorear las asignaturas o el texto en la consola, se utilizan");
+        System.out.println("los llamados códigos de escape ANSI. Son pequeñas combinaciones de");
+        System.out.println("números y letras que la consola interpreta como 'cambia el color del texto'.\n");
+        
+        System.out.println("- ¿Cómo se usa?:");
+        System.out.println("  Se insertan directamente dentro del texto que imprimes.");
+        System.out.println("  Por ejemplo, \\033[31m pone el texto en rojo, \\033[32m en verde, y");
+        System.out.println("  \\033[39m (o un código de reseteo como \\033[0m) vuelve al color normal.\n");
+        
+        System.out.println("  Ejemplo:");
+        System.out.println("  System.out.println(\"\\033[31m Matemáticas \\033[0m\");");
+        System.out.println("  Imprimirá la palabra Matemáticas en rojo y luego restablecerá el color.\n\n");
+
+
+        // ------------------------------------------------------------------
+        // 4º. CONSTRUIR FORMAS, PIRÁMIDES Y DIBUJOS
+        // ------------------------------------------------------------------
+        System.out.println("4º. CONSTRUIR FORMAS, PIRÁMIDES Y DIBUJOS (Ejercicios 6 al 9)");
+        System.out.println("----------------------------------------------------------------------");
+        System.out.println("Para hacer figuras geométricas (pirámides) o dibujos complejos (el campo,");
+        System.out.println("una taza de café), al principio se utiliza la técnica más directa:");
+        System.out.println("imprimir línea por línea.\n");
+        
+        System.out.println("- Uso repetido de print / println:");
+        System.out.println("  Combinando espacios en blanco \" \" y asteriscos * (u otros caracteres");
+        System.out.println("  como #, @, +), puedes \"dibujar\" manualmente cada línea.\n");
+        
+        System.out.println("- Para una pirámide normal (Ejercicio 6):");
+        System.out.println("  La primera línea tiene espacios y un asterisco, la segunda más espacios");
+        System.out.println("  y más asteriscos, hasta llegar a la base de 9.\n");
+        
+        System.out.println("- Para una pirámide hueca (Ejercicio 7):");
+        System.out.println("  Imprimes asteriscos solo en los bordes y dejas espacios vacíos en el centro.\n");
+        
+        System.out.println("- Para la invertida (Ejercicio 8):");
+        System.out.println("  Comienzas con la base más ancha arriba y vas reduciendo hacia abajo.\n");
+        
+        System.out.println("- Para una escena (Ejercicio 9):");
+        System.out.println("  Es pura composición artística usando tu teclado (arte ASCII).");
+        System.out.println("  Imagina que estás pintando con letras y símbolos.");
+        
+        System.out.println("\n======================================================================");
+        System.out.println("                     FIN DE LOS APUNTES TEÓRICOS                      ");
+        System.out.println("======================================================================");
+    }
+}
